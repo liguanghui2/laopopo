@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Laopopo-monitor</title>
+<script type="text/javascript" src="./resources/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="./resources/js/bootstrap.js"></script>
+<script type="text/javascript" src="./resources/js/bootstrap-table.js"></script>
+<script src="./resources/js/locale/bootstrap-table-zh-CN.min.js"></script>
+<link rel="stylesheet" href="./resources/css/bootstrap.css">
+<link rel="stylesheet" href="./resources/css/bootstrap-table.css">
+<link rel="stylesheet" href="./resources/css/starter-template.css">
+<script type="text/javascript" src="./resources/js/controller.js"></script>
+</head>
+<body>
+ 
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Laopopo-RPC</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container" style="min-height: 40em;">
+		<div class="starter-template">
+			<div  class="col-xs-12" style="margin-top: 50px;margin-bottom: 50px;">
+		    	<div class="form-group col-xs-2">
+		    	</div>
+<!-- 		    	<div class="form-group col-xs-8"> -->
+<!-- 		    	<input type="text" class="form-control search clearable" placeholder="搜索开源库，例如：Laopopo">  -->
+<!-- 				加图标需要额外引用 css	<i class="fa fa-search"></i> -->
+<!-- 		    	</div> -->
+		    	<div class="form-group col-xs-2">
+		    	</div>
+			</div>
+			<table id="monitorTable">
+			</table>
+		</div>
+	</div>
+	
+	
+	<div class="modal fade" id="commonModal">
+	</div>
+	
+</body>
+</html>
